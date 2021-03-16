@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js" integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset=utf-8>
+  <title>Yodlr Design Challenge</title>
+</head>
+<body>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col"><h1>Yodlr Design Challenge</h1></div>
+    </div>
+    <div class="row">
+      <div class="col border-right">
+        <h4>Data On Users</h4>
+        <ul id="user-list"></ul>
+      </div>
+      <div class="col">
+        <h4>Registration Form</h4>
+        <form id="register-form">
+          <label>Email</label>
+          <input type="email" name="email" class="form-control" id="email"/></br>
+          <label>First Name</label>
+          <input type="text" name="firstName" class="form-control" id="firstName"/><br/>
+          <label>Last Name</label>
+          
+          <input type="text" name="lastName" class="form-control" id="lastName"/><br/>
+          <label>State</label>
+            <select name="state" class="form-control">
+              <option value="pending" class="text-warning" selected>Pending</option>
+              <option value="accepted" class="text-success">Accepted</option>
+            </select>
+          <button type="submit" id="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <p>
+    <a href="/signup.html">Registration Page</a><br/>
+    <a href="/admin.html">Admin Page</a>
+  </p>
+  <script src="js/app.js"></script>
+</body>
+</html>

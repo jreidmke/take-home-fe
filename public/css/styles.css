@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+}
+
+#submit-btn {
+    background-color: white;
+    border: 1px solid slategray;
+    border-radius: 5%;
+    margin: 1rem;
+    width: 100%;
+}
+
+#submit-btn:hover {
+    background-color: slategray;
+    color:white;
+}
